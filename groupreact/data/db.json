@@ -1,0 +1,40 @@
+{
+  "api": [
+    {
+      "id": 1,
+      "item": "Apple",
+      "amount": 5,
+      "price": 20
+    },
+    {
+      "id": 2,
+      "item": "Banana",
+      "amount": 7,
+      "price": 25
+    },
+    {
+      "id": 3,
+      "item": "Pear",
+      "amount": 3,
+      "price": 10
+    },
+    {
+      "id": 4,
+      "item": "Orange",
+      "amount": 4,
+      "price": 5
+    },
+    {
+      "id": 5,
+      "item": "Pineapple",
+      "amount": 2,
+      "price": 8
+    },
+    {
+      "id": 7,
+      "item": "awdwad",
+      "amount": "2222",
+      "price": "333"
+    }
+  ]
+}
