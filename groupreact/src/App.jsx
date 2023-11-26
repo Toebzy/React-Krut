@@ -12,8 +12,8 @@ function App() {
 
   const APIURL = 'http://localhost:3000/api';
 
-  function editRecipe(person) {
-    setRecipesToEdit(person);
+  function editRecipe(recipe) {
+    setRecipesToEdit(recipe);
   }
 
   function mutateRecipe(recipe) {

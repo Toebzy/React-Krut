@@ -61,14 +61,14 @@ function RecipeForm({blankRecipe, recipesToEdit, updateRecipe, mutateRecipe}) {
                 value={recipe.price} 
                 onChange={handleChange}
                 />
-            
+
+            <div id="buttons">
+                <button>Add/Update</button>
+            </div>
            
             </form> 
             </div>
-            <div id="buttons">
-                <button>Update</button>
-            <button onClick={() => setRecipe(blankRecipe)}>Reset</button>
-            </div>
+        
         </div>
     )
 }

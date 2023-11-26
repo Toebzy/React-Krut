@@ -1,8 +1,7 @@
 function RecipeList({recipes, deleteRecipeById, editRecipe}) {
     return (
         <div>
-            <h3>Shoppinglist</h3>
-            <table className="table table-striped">
+        <table className="table table-striped">
     <thead>
         <tr>
         <th>Id</th>
