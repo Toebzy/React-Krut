@@ -20,9 +20,12 @@ function RecipeForm({blankRecipe, recipesToEdit, updateRecipe, mutateRecipe}) {
     }
 
     return (
-        <div>
-            <h1>Add Items</h1>
-            {JSON.stringify(recipe)}
+        <div class="recipeForm">
+            <div id = "title">
+                 <h2>Add Items</h2>
+            </div>
+               
+            <div id = "widthfull">
             <form onSubmit={handleSubmit}>
                 <label htmlFor="id">Id:</label>
                 <input 
@@ -58,9 +61,14 @@ function RecipeForm({blankRecipe, recipesToEdit, updateRecipe, mutateRecipe}) {
                 value={recipe.price} 
                 onChange={handleChange}
                 />
-            <button>Update</button>
+            
+           
+            </form> 
+            </div>
+            <div id="buttons">
+                <button>Update</button>
             <button onClick={() => setRecipe(blankRecipe)}>Reset</button>
-            </form>
+            </div>
         </div>
     )
 }

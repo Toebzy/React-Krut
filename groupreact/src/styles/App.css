@@ -1,0 +1,57 @@
+html{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+thead{
+    background-color: rgb(106, 91, 126);
+}
+thead th{
+    color: aliceblue;
+}
+table, th, td {
+    border: 1px solid #dddd;
+    border-collapse: collapse;
+
+}
+table{
+    width: 100%;
+}
+td, th{
+    padding: 8px;
+    position: relative;
+}
+td {
+    text-align: center;
+
+}
+button{
+    width: 40%;
+    padding: 4px;
+    margin: 4px;
+    height: 100%;
+     text-align: center;
+}
+tr:nth-child(even){background-color:  #f2f2f2;}
+
+.recipeForm{
+    width: 100%;
+}
+#title{
+    width: 100%;
+}
+.recipeForm label, input{
+    padding: 9px;
+}
+#widthfull{
+    width: 100%;
+
+}
+#buttons{
+    margin-top: 15px;
+    width: 30%;
+    display:inline-block;
+}

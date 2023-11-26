@@ -1,7 +1,7 @@
 function RecipeList({recipes, deleteRecipeById, editRecipe}) {
     return (
         <div>
-            <h1>Lists of Recipes</h1>
+            <h3>Shoppinglist</h3>
             <table className="table table-striped">
     <thead>
         <tr>
@@ -9,6 +9,7 @@ function RecipeList({recipes, deleteRecipeById, editRecipe}) {
         <th>Item</th>
         <th>Amount</th>
         <th>Price</th>
+        <th></th>
         </tr>
     </thead>
     <tbody>

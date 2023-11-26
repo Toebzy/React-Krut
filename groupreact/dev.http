@@ -12,3 +12,15 @@ Accept: application/application/json
     "price": 30
 }
 ###
+PUT http://localhost:3000/api/2
+Content-Type: application/json
+Accept: application/application/json
+
+{
+    "item": "Beans",
+    "amount": 30,
+    "price": 30
+}
+###
+DELETE http://localhost:3000/api/2
+###

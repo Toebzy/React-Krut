@@ -1,5 +1,6 @@
 {
-  "api": [
+  "api":
+  [
     {
       "id": 1,
       "item": "Apple",
@@ -29,12 +30,6 @@
       "item": "Pineapple",
       "amount": 2,
       "price": 8
-    },
-    {
-      "id": 7,
-      "item": "awdwad",
-      "amount": "2222",
-      "price": "333"
     }
   ]
 }

@@ -58,7 +58,7 @@ function App() {
 
   return (
     <div>
-      <h1>A Recipe App</h1>
+      <h1>Shoppinglist</h1>
       <RecipeList recipes={recipes} deleteRecipeById={deleteRecipeById} editRecipe={editRecipe}/>
       <RecipeForm blankRecipe={blankRecipe} recipesToEdit={recipesToEdit} mutateRecipe={mutateRecipe}/>
     </div>
